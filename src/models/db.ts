@@ -1,3 +1,4 @@
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
 import mysql from 'mysql2/promise';
 import config from '../config';
 

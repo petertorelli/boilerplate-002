@@ -1,3 +1,4 @@
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
 import Debug from 'debug';
 import crypto from 'crypto';
 import bcrypt from 'bcrypt';

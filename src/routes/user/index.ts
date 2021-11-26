@@ -1,3 +1,4 @@
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
 import express from 'express';
 
 import signup from './funcs/signup';

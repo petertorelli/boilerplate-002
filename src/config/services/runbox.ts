@@ -1,3 +1,4 @@
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
 import dotenv from 'dotenv';
 
 dotenv.config();

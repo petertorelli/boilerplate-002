@@ -1,3 +1,5 @@
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
 import express from 'express';
 import cookieSession from 'cookie-session';
 import morgan from 'morgan';

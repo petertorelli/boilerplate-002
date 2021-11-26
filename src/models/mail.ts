@@ -1,3 +1,4 @@
+/* Copyright (C) Peter Torelli <peter.j.torelli@gmail.com> */
 import nodemailer from 'nodemailer';
 import config from '@config';
 
