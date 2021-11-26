@@ -1,0 +1,32 @@
+extends /top
+
+block title
+  title Sign up
+
+block action
+  h2 Sign up
+  form(action='signup' method='post')
+    label Email address
+    input(
+      required
+      type='email'
+      name='email'
+      value= email
+      maxlength=254).form-control
+    label Password
+    input(
+      required
+      type='password'
+      name='password'
+      value= password
+      maxlength=30).form-control
+    label Re-enter password
+    input(
+      required
+      type='password'
+      name='repassword'
+      value= repassword
+      maxlength=30).form-control
+    button(type='submit').btn.btn-primary.mt-2 Sign up
+  small
+    a(href='signin') Already have an account? Sign in!

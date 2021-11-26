@@ -1,0 +1,14 @@
+extends /top
+
+block title
+  title Reset Password
+
+block action
+  h2 Reset Password
+  p.
+    An email will be sent to you with a link that you can use to reset
+    your password.
+  form(action='reset' method='post')
+    label Email address
+    input(type='email' name='email' value= email required).form-control
+    button(type='submit').btn.btn-primary Reset

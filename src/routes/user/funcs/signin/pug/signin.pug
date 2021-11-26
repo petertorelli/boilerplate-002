@@ -1,0 +1,33 @@
+extends /top
+
+block title
+  title Sign in
+
+block action
+  h2 Sign in
+  form(action='signin' method='post')
+    input(type='hidden' name='nexturl' value= nexturl)
+    label Email address
+    input(
+      required
+      type='email'
+      name='email'
+      value=email
+      maxlength=254
+    ).form-control
+    label Password
+    input(
+      required
+      type='password'
+      name='password'
+      maxlength=30
+    ).form-control
+    .small
+      a(href='reset') Forgot Password?
+    button(type='submit').btn.btn-primary Login
+  small
+    span
+      a(href='signup') Sign up to request access
+    span &nbsp;&centerdot;&nbsp;
+    span
+      a(href='resend') Resend activation email
