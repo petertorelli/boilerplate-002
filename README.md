@@ -9,3 +9,4 @@ Uses:
 * ESLint
 * Typescript
 * Nodemon
+* Bootstrap 5
