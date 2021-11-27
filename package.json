@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "yarn nodemon src/www.ts"
+    "dev": "nodemon src/www.ts"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
