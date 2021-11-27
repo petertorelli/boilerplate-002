@@ -21,7 +21,7 @@ if (key1 == undefined || key2 == undefined) {
 
 const session = cookieSession({
   name: 'sitecook',
-  secure: process.env.NODE_ENV === 'development' ? false : true,
+//  secure: true,//process.env.NODE_ENV === 'development' ? false : true,
   keys: [key1, key2],
   httpOnly: true,
   sameSite: true,
